@@ -18,9 +18,9 @@
             width: 80px; /* ปรับค่าตามที่คุณต้องการ */
             height: auto; /* รักษาสัดส่วน */
         }
-        .imgcontainer img {
-          width: 80px; /* ปรับค่าตามที่คุณต้องการ */
-          height: auto; /* รักษาสัดส่วน */
+        .imgcontainer img { 
+            width: 80px; /* ปรับค่าตามที่คุณต้องการ */
+            height: auto; /* รักษาสัดส่วน */
         }
     </style>
 </head>
@@ -45,7 +45,8 @@
                         <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Signin</a>
+                        <!-- Updated href for Signin link -->
+                        <a class="nav-link" href="#signin-page">Signin</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Help</a>
@@ -67,32 +68,31 @@
                     <h5 class="modal-title" id="loginModalLabel">Login</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <!--here-->
-                <div class="imgcontainer">
-                  <img src="user.png" alt="Avatar" class="avatar">
-              </div>
-              <div class="container">
-                  <div class="row">
-                      <div class="col">
-                          <label for="uname"><b>Username</b></label>
-                          <input type="text" placeholder="Enter Username" name="uname" required>
-                      </div>
-                      <div class="col">
-                          <label for="psw"><b>Password</b></label>
-                          <input type="password" placeholder="Enter Password" name="psw" required>
-                      </div>
-                  </div>
-                  <label>
-                      <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
-              </div>
-              
-                        <!--here-->
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
+                <div class="modal-body">
+                    <!-- ... rest of the modal content ... -->
+                    <div class="imgcontainer">
+                        <img src="user.png" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <label for="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+                            </div>
+                            <div class="col">
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                            </div>
                         </div>
-                    </form>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
                 </div>
             </div>
         </div>
