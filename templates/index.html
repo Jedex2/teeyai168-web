@@ -42,7 +42,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <!-- Trigger the login modal -->
-                        <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                        <a class="nav-link active" aria-current="page" href="loginForm.html">Login</a>
                     </li>
                     <li class="nav-item">
                         <!-- Updated href for Signin link -->
@@ -58,45 +58,5 @@
             </div>
         </div>
     </nav>
-    <!-- Navbar -->
-
-    <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- ... rest of the modal content ... -->
-                    <div class="imgcontainer">
-                        <img src="user.png" alt="Avatar" class="avatar">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <label for="uname"><b>Username</b></label>
-                                <input type="text" placeholder="Enter Username" name="uname" required>
-                            </div>
-                            <div class="col">
-                                <label for="psw"><b>Password</b></label>
-                                <input type="password" placeholder="Enter Password" name="psw" required>
-                            </div>
-                        </div>
-                        <label>
-                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                        </label>
-                    </div>
-
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Login Modal -->
 </body>
 </html>
