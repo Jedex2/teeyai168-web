@@ -19,3 +19,30 @@ body {
     height: 100%;
     background: purple;
 }
+
+.sidebar .logo-menu {
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    background: slateblue;
+}
+
+.sidebar .logo-menu .logo {
+    font-size: 25px;
+    color: #fff;
+    pointer-events: none;
+}
+
+.sidebar .logo-menu .toggle-btn {
+    position: absolute;
+    left: 90%;
+    transform: translate(-50%);
+    width: 40px;
+    height: 40px;
+    background: salmon;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
