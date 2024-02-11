@@ -12,7 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background: url('https://i.pinimg.com/474x/c9/6f/86/c96f86f5388ea5540b810d5e270fdee4.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
