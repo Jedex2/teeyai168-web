@@ -19,10 +19,14 @@ body {
 
 .wrapper {
     width: 750px;
-    background: purple;
+    background: rgba(255,255,255,.1);
+    border: 2px solid rgba(255,255,255,.2);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    backdrop-filter: blur(50px);
     border-radius: 10px;
     color: #fff;
     padding: 40px 35px 55px;
+    margin: 0 10px;
 }
 
 .wrapper h1 {
@@ -91,4 +95,11 @@ body {
     font-size: 16px;
     color: #333;
     font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .input-box .input-field{
+        width: 100%;
+        margin: 10px 0;
+    }
 }
